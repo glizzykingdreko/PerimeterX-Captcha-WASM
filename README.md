@@ -63,7 +63,7 @@ node main.js
 This will load the WebAssembly script and execute the defined functions.
 
 ## Important Note on Memory Buffer Emulation
-In the `helpers.js` file, at line 194, there's a function:
+In the `helpers.js` file, at [line 194](https://github.com/glizzykingdreko/PerimeterX-Captcha-WASM/blob/2654029deb8fb0091660cd37f1117c81f640658a/helpers.js#L195), there's a function:
 
 ```javascript
 function H() {
