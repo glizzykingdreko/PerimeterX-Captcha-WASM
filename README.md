@@ -35,7 +35,7 @@ In this project, `Ce` corresponds to our `functions` module, and it is used to g
 
 - `main.js`: 
   - The primary entry point of the application.
-  - Loads the WebAssembly script.
+  - Reads and loads a WASM script from a file named `script.txt` which contains the WebAssembly code in an "encrypted" format.
   - Once the WASM script is loaded, it calls functions from the `functions` object exported from `helpers.js`.
   
 - `helpers.js`: 
